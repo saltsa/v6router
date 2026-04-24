@@ -1,0 +1,8 @@
+[Unit]
+Description=IPv6 advertisement server
+After=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/root/v6router.env
+ExecStart=/root/v6router -iface ${INTERFACE} -prefix ${PREFIX} -loop
