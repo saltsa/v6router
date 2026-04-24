@@ -1,4 +1,4 @@
-# IPv& router advertisement daemon
+# IPv6 router advertisement daemon
 
 This is a very simple daemon to avertise routes from the (Linux) router to the local network. Configuration
 is trivial as it only needs interface name and the delegated IPv6 prefix which must be at least /64.
