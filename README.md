@@ -1,10 +1,10 @@
 # IPv& router advertisement daemon
 
-This is very simple daemon to avertise routes from the (Linux) router to the local network. Configuration
-is very simple as it only needs interface name and the delegate IPv6 prefix. It defaults to advertise only 
-/64 prefix. The DNS servers are also advertised and Google's DNS is used.
+This is a very simple daemon to avertise routes from the (Linux) router to the local network. Configuration
+is trivial as it only needs interface name and the delegated IPv6 prefix which must be at least /64.
+Advertisements use it as hardcoded value. The DNS servers are also hardcoded to Google's DNS servers.
 
-This application can be ran basically in any Linux system, as well as others.
+This application can be ran basically in any Linux system. Other operating systems should equally work.
 
 ## Building
 
